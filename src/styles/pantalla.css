@@ -141,6 +141,15 @@
     background: radial-gradient(circle, rgb(248, 220, 250) 39%, rgba(255,156,253,1) 100%);
 }
 /* terminan tipos */
+@media screen and (max-height: 385px){
+.pantalla{
+    max-height: 100px;
+}
+.cuadro{
+    width: 160px;
+    height: 160px;
+}
+}
 
 @media screen and (min-width: 500px){
 .pantalla{

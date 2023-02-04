@@ -12,7 +12,7 @@ export function Lista({pokelista, elegir}){
 
     return (
         <div className="lista">
-        <input value={letras} onChange={(e) => setLetras(e.target.value)} placeholder="Buscar aqui..."/>
+        <input value={letras} onChange={(e) => setLetras(e.target.value.toLowerCase())} placeholder="Buscar aqui..."/>
         <ul>
         {filtroPokemon.map((fi) => {
             return (
