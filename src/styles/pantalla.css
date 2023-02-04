@@ -1,0 +1,207 @@
+.pantalla{
+    grid-area: pantalla;
+    min-height: 300px;
+    border: 5px groove rgba(230, 0, 0, 0.868);
+    background: rgb(54,152,208);
+    background: linear-gradient(90deg, rgba(54,152,208,1) 6%, rgba(41,123,199,1) 48%, rgba(65,120,205,1) 91%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000;
+}
+.pantalla h3{
+    margin-top: 0;
+    padding-top: 5px;
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    background: linear-gradient(90deg, rgba(7,104,255,1) 0%, rgba(0,0,0,1) 47%, rgba(0,90,251,1) 100%);
+    border-bottom: 1px dashed rgb(240, 240, 133);
+    box-shadow: 0px -3px 2px rgb(21, 21, 81);
+}
+.cuadro{
+    display: flex;
+    background-color: #fff;
+    width: 49%;
+    border: 3px groove rgb(0, 0, 149);
+    background: rgb(108,255,122);
+    background: linear-gradient(0deg, rgba(108,255,122,1) 0%, rgba(241,240,255,1) 15%, rgba(230,255,252,1) 30%, rgba(230,241,255,1) 45%, rgba(240,249,255,1) 60%, rgba(240,251,255,1) 75%, rgba(243,237,255,1) 90%, rgba(249,254,188,1) 100%);
+    box-shadow: -1px 0px 8px #fffde5;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    max-width: 220px;
+    max-height: 220px;
+}
+.stats{
+    width: 49%;
+}
+.stats h4{
+    margin-left:3% ;
+    text-align: left;
+}
+.stats ul{
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 3%;
+}
+.caracteristicas p{
+    font-weight: bold;
+}
+.caracteristicas p span{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    color: #000;
+    text-shadow: none;
+}
+
+
+/* tipos */
+.fire{
+    padding: 0px 5px;
+    background: rgb(253, 211, 211);
+    background: radial-gradient(circle, rgb(255, 204, 204) 36%, rgb(228, 32, 32) 100%);
+}
+.poison{
+    padding: 0px 5px;
+    background: rgb(233,168,255);
+    background: radial-gradient(circle, rgb(237, 197, 250) 36%, rgba(222,0,255,1) 100%);
+}
+.grass{
+    background: rgb(181,255,168);
+    background: radial-gradient(circle, rgb(210, 255, 202) 36%, rgb(36, 249, 50) 100%);
+}
+.normal{
+    background: rgb(243,243,243);
+    background: radial-gradient(circle, rgba(243,243,243,1) 36%, rgba(198,198,198,1) 100%);
+}
+.water{
+    background: rgb(150,235,255);
+    background: radial-gradient(circle, rgb(181, 240, 255) 36%, rgb(31, 218, 255) 100%);
+}
+.electric{
+    background: rgb(250,255,162);
+    background: radial-gradient(circle, rgb(247, 249, 204) 36%, rgba(250,255,0,1) 100%);
+}
+.ice{
+    background: rgb(237,254,255);
+    background: radial-gradient(circle, rgba(237,254,255,1) 36%, rgba(120,255,253,1) 100%);
+}
+.fighting{
+    background: rgb(243,217,175);
+    background: radial-gradient(circle, rgba(243,217,175,1) 36%, rgba(203,104,34,1) 100%);
+}
+.ground{
+    background: rgb(234,210,165);
+    background: radial-gradient(circle, rgba(234,210,165,1) 36%, rgba(233,173,32,1) 100%);
+}
+.flying{
+    background: rgb(248,248,248);
+    background: radial-gradient(circle, rgba(248,248,248,1) 36%, rgba(150,217,217,1) 100%);
+}
+.psychic    {
+
+    background: rgb(250,182,255);
+    background: radial-gradient(circle, rgba(250,182,255,1) 36%, rgba(215,42,212,1) 100%);
+}
+.bug{
+    background: rgb(217,234,172);
+    background: radial-gradient(circle, rgba(217,234,172,1) 36%, rgba(130,215,42,1) 100%);
+}
+.rock{
+    background: rgb(202,178,106);
+    background: radial-gradient(circle, rgba(202,178,106,1) 39%, rgba(183,127,6,1) 100%);
+}
+.ghost{
+    background: rgb(164,106,202);
+    background: radial-gradient(circle, rgb(180, 116, 223) 39%, rgba(133,6,183,1) 100%);
+}
+.dragon{
+    background: rgb(154,205,231);
+    background: radial-gradient(circle, rgb(203, 229, 241) 39%, rgba(7,139,196,1) 100%);
+}
+.dark{
+    background: rgb(124,126,202);
+    background: radial-gradient(circle, rgb(159, 161, 229) 39%, rgba(0,0,69,1) 100%);
+}
+.steel{
+    background: rgb(233,233,233);
+    background: radial-gradient(circle, rgba(233,233,233,1) 39%, rgba(157,161,162,1) 100%);
+}
+.fairy{
+    background: rgb(236,209,238);
+    background: radial-gradient(circle, rgb(248, 220, 250) 39%, rgba(255,156,253,1) 100%);
+}
+/* terminan tipos */
+
+@media screen and (min-width: 500px){
+.pantalla{
+    background: linear-gradient(90deg, rgba(10,75,176,1) 0%, rgba(0,91,255,1) 56%, rgba(75,218,255,1) 100%);
+}
+.pantalla h3{
+    letter-spacing: 0.2rem;
+}
+
+.stats h4{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.stats ul{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 10%;
+}
+}
+@media screen and (min-width: 1200px){
+.pantalla{
+    background: rgb(10,75,176);
+background: linear-gradient(270deg, rgba(10,75,176,1) 0%, rgba(75,218,255,1) 24%, rgba(0,58,162,1) 100%);
+}
+.pantalla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 1fr;
+    grid-template-areas: 
+    "titulo titulo "
+    " stats cuadro"
+    " stats cuadro"
+    " tipo cuadro";
+    gap: 0 0;
+    }
+.pantalla h3{
+    grid-area: titulo;
+    width: 100%;
+}
+.cuadro{
+    grid-area: cuadro;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.stats{
+    grid-area: stats;
+    width: 100%;
+}
+.stats h4{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.stats ul{
+    padding-top: 5px;
+    text-align: left;
+    margin-left: 20%;
+}
+.caracteristicas{
+    font-size: 18px;
+    grid-area: tipo;
+}
+}

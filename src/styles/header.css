@@ -1,0 +1,29 @@
+
+.cabeza{
+    grid-area: header;
+    height: 80px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 72px;
+
+    border: 1px solid red;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(233,1,1,1) 1%, rgba(255,60,60,1) 24%, rgba(222,5,5,1) 44%, rgba(0,0,0,1) 49%, rgba(255,255,255,1) 55%, rgba(243,236,236,1) 77%, rgba(255,255,255,1) 99%, 
+    rgba(11,0,0,1) 100%);
+    color: rgb(255, 255, 0);
+    text-shadow: 3px 3px 10px rgb(34, 0, 255), 0px 0px 5px rgb(34, 0, 255), -3px -3px 5px rgb(34, 0, 255);
+}
+
+.punto{
+    position: absolute;
+    right: -5px;
+    top: -8px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 15%, rgba(0,0,0,1) 17%, rgba(255,255,255,1) 19%, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 35%, rgba(255,255,255,1) 36%, rgba(0,0,0,1) 42%, rgba(36,36,36,1) 42%, rgba(255,255,255,0) 48%);
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (min-width: 420px){
+.cabeza{
+    text-align: center;
+}
+}

@@ -1,0 +1,24 @@
+.footer{
+    display: none;
+    grid: footer;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 80%, rgba(220,253,255,1) 97%, rgba(190,213,255,1) 100%);
+}
+.footer p{
+    text-align: left;
+    margin: 30px;
+    padding-top: 10px;
+    border-top: 3px solid #000;
+}
+
+@media  screen and (min-width: 720px) and (min-height: 720px){
+.footer{
+    display: block;
+    width: 350%;
+}
+}
+@media  screen and (min-width: 1100px) and (min-height: 400px){
+    .footer{
+        display: block;
+        width: 200%;
+    }
+}
